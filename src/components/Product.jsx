@@ -28,7 +28,7 @@ const Product = ({ post }) => {
       </p>
       
       <div className="h-[180px] w-full flex items-center justify-center">
-        <img src={post.image} className="h-full w-auto object-contain" />
+        <img src={post.image} alt={post.title} className="h-full w-auto object-contain" />
       </div>
       
       <div className="flex justify-between items-center w-full mt-4">
